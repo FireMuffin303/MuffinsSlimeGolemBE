@@ -1,0 +1,14 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:block": {
+        "description": {
+            "identifier": "muffins_slimegolem:packed_slime_bricks",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:friction": 0.2
+        }
+    }
+}

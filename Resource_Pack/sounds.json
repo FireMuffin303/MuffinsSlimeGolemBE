@@ -1,0 +1,11 @@
+{
+    "individual_event_sounds": {
+        "events": {
+            "muffins_slimegolem.bouncyslime":{
+                "pitch": 1.0,
+                "sound": "muffins_slimegolem.record.bouncyslime",
+                "volume" : 1.0
+            }
+        }
+    }
+}

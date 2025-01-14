@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "muffins_slimegolem:packed_slime_bricks"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "AA",
+            "AA"
+        ],
+        "key": {
+            "A":{
+                "item":"muffins_slimegolem:packed_slime_block"  
+            }
+        },
+        "unlock":[{
+            "item":"muffins_slimegolem:packed_slime_block"
+        }],
+        "result":{
+            "item": "muffins_slimegolem:packed_slime_bricks",
+            "count": 4
+            }
+    }
+}

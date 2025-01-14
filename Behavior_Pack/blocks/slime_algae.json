@@ -1,0 +1,38 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:block": {
+        "description": {
+            "identifier": "muffins_slimegolem:slime_algae",
+            "menu_category": {
+                "category": "construction"
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:facing_direction"]
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('facing_direction') == 'up'",
+                "components": {
+                    "minecraft:selection_box":{
+                        "origin": [
+                            -8,
+                            0,
+                            -8
+                        ],
+                        "size": [
+                            8,
+                            8,
+                            8
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            
+        }
+    }
+}

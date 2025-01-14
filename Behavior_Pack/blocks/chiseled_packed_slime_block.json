@@ -1,0 +1,14 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:block": {
+        "description": {
+            "identifier": "muffins_slimegolem:chiseled_packed_slime_block",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:friction": 0.2
+        }
+    }
+}

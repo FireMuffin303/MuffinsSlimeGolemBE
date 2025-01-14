@@ -1,0 +1,19 @@
+{
+    "format_version": "1.20.50",
+    "sound_definitions": {
+        "muffins_slimegolem.record.bouncyslime":{
+            "__use_legacy_max_distance": true,
+            "category": "record",
+            "max_distance": 64,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/records/bouncyslime",
+                    "stream": true,
+                    "volume": 0.50
+                }
+            ]
+        }
+    }
+}

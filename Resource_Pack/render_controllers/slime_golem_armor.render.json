@@ -1,0 +1,14 @@
+{
+    "format_version": "1.20.41",
+    "render_controllers": {
+        "controller.render.slime_golem_armor":{
+            "geometry": "geometry.armor",
+            "materials": [
+                {
+                    "*": "material.outer"
+                }
+            ],
+            "textures": ["texture.default"]
+        }
+    }
+}

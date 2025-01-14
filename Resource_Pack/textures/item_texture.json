@@ -1,0 +1,12 @@
+{
+    "resource_pack_name": "muffins_slimegolem",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "muffins_slimegolem:slime_pie":{
+            "textures" : "textures/items/slime_pie"
+        },
+        "muffins_slimegolem:bouncyslime_disc":{
+            "textures": "textures/items/bouncyslime_disc"
+        }
+    }
+}

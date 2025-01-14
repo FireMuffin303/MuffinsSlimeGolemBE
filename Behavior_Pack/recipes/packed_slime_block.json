@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "muffins_slimegolem:packed_slime_block"
+        },
+        "tags": ["crafting_table"],
+        "ingredients":[
+            {
+                "item":"minecraft:slime"
+            },
+            {
+                "item":"minecraft:slime_ball"
+            }
+        ],
+        "unlock":[{
+            "item":"minecraft:slime_ball"
+        }],
+        "result":{
+            "item": "muffins_slimegolem:packed_slime_block",
+            "count": 1    
+            }
+    }
+}

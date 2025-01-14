@@ -1,0 +1,17 @@
+{
+    "texture_name": "atlas.terrain",
+    "resource_pack_name": "muffins_slimegolem",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "packed_slime_block":{
+            "textures":"textures/blocks/packed_slime_block"
+        },
+        "packed_slime_bricks":{
+            "textures":"textures/blocks/packed_slime_bricks"
+        },
+        "chiseled_packed_slime_block":{
+            "textures":"textures/blocks/chiseled_packed_slime_block"
+        }
+    }
+}

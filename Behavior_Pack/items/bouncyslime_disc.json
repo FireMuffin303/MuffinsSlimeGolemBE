@@ -1,0 +1,17 @@
+{
+    "format_version":"1.20.50",
+    "minecraft:item":{
+        "description": {
+            "identifier": "muffins_slimegolem:bouncyslime_disc",
+            "menu_category": {"category": "items"}
+        },
+        "components": {
+            "minecraft:icon": "muffins_slimegolem:bouncyslime_disc",
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:music_disc"
+                ]
+            }
+        }
+    }
+}

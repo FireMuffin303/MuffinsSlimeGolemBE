@@ -1,0 +1,28 @@
+{
+    "format_version": "1.8.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "muffins_slimegolem:slime_golem",
+            "materials": {
+                "default":"slime",
+                "outer":"slime_outer",
+                "head":"snow_golem_pumpkin"
+            },
+            "textures": {
+                "default":"textures/entity/slime_golem"
+            },
+            "geometry": {
+                "default":"geometry.slime_golem_inner",
+                "armor":"geometry.slime_golem_armor"
+            },
+            "render_controllers": [
+                "controller.render.slime_golem",
+                "controller.render.slime_golem_armor"],
+            "spawn_egg": {
+                "base_color": "#aeff9e",
+                "overlay_color": "#98ffc3"
+            }
+        }
+        
+    }
+}

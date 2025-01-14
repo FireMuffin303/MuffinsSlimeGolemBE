@@ -1,0 +1,95 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:block": {
+        "description": {
+            "identifier": "muffins_slimegolem:packed_slime_bricks_stairs",
+            "menu_category": {
+                "category": "construction",
+                "group": "itemGroup.name.stairs"
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": ["minecraft:vertical_half"]
+                },
+                "minecraft:placement_direction": {
+                    "enabled_states": ["minecraft:cardinal_direction"],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,180,0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,270,0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:vertical_half') == 'bottom'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,90,0]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north' && q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,180,180]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south' && q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,0,180]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east' && q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,270,180]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west' && q.block_state('minecraft:vertical_half') == 'top'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [0,90,180]
+                    }
+                }
+            }
+            
+        ],
+        "components": {
+            "minecraft:friction": 0.2,
+            "minecraft:geometry":{
+                "identifier": "geometry.stairs"
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "packed_slime_bricks"
+                }
+            },
+            "minecraft:collision_box":{
+                "origin": [-8,0,-8],
+                "size": [16,8,16]
+            }
+        }
+    }
+}

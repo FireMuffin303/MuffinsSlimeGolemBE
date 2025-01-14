@@ -1,0 +1,21 @@
+{
+    "format_version":"1.10.0",
+    "muffins_slimegolem:packed_slime_block":{
+        "textures":"packed_slime_block",
+        "sound": "slime"
+    },
+    "muffins_slimegolem:packed_slime_bricks":{
+        "textures":"packed_slime_bricks",
+        "sound": "slime"
+    },
+    "muffins_slimegolem:chiseled_packed_slime_block":{
+        "textures":"chiseled_packed_slime_block",
+        "sound": "slime"
+    },
+    "muffins_slimegolem:packed_slime_bricks_slab":{
+        "sound": "slime"
+    },
+    "muffins_slimegolem:packed_slime_bricks_stairs":{
+        "sound": "slime"
+    }
+}
